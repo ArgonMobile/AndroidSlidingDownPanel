@@ -1,5 +1,7 @@
 AndroidSlidingDownPanel
 =======================
+SlidingDownPanel provides a vertical, multi-pane layout for user at the top level of a UI, just like the usage in [Aviate](http://getaviate.com/).
+
 
 Usage
 =====
