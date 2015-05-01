@@ -624,8 +624,8 @@ public class SlidingDownPanelLayout extends ViewGroup {
 
             if (lp.slideable) {
                 final int margin = lp.leftMargin + lp.rightMargin;
-                final int range = Math.min(nextYStart,
-                        height - paddingBottom - mOverhangSize - yStart - margin);
+                final int range = Math.max(0, Math.min(nextYStart,
+                    height - paddingBottom - mOverhangSize - yStart - margin - lp.topMargin));
                 mSlideRange = range;
                 lp.dimWhenOffset = yStart + lp.topMargin + range + childHeight / 2 >
                         height - paddingBottom;
