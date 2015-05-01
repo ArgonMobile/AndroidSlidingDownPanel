@@ -2,6 +2,9 @@ AndroidSlidingDownPanel
 =======================
 SlidingDownPanel provides a vertical, multi-pane layout for user at the top level of a UI, just like the usage in [Aviate](http://getaviate.com/).
 
+![Panel up](http://i.imgur.com/yvvTYnvl.png "Panel up")
+![Panel down](http://i.imgur.com/SvrCw7nl.png "Panel slided down")
+
 Usage
 =====
 The layout could be usage as [SlidingPaneLayout]( http://developer.android.com/reference/android/support/v4/widget/SlidingPaneLayout.html). To use of the layout, simply include `com.argonware.slidingdownpanel.SlidingDownPanelLayout` as the root element for your multi pane layout. Add two children view. The first child is your main layout. The second child is your layout for the sliding down panel. 
